@@ -8,12 +8,19 @@ Ubiq文件夹中为使用到的Ubiq脚本，包含自行编写的
 `NetworkScene.cs`、`RoomClient.cs`、`LatencyMeter.cs`、`VoipPeerConnectionManager.cs`、`LogCollector.cs`、`RoomSceneManager.cs`
 
 `MyNetworkedObject.cs`：游戏对象网络化脚本，定义了包含对象位置与旋转信息的消息，用于接收消息、更新对象状态、传递消息，实现对象的状态同步。
+
 `JoinRoomClients.cs`：在Local Loopback场景（在同一Unity场景中建立两个房间视作两个客户端）中，在开始时将两个客户端加入同一房间。
+
 `NetworkScene.cs`：将网络化组件连接到网络上。
+
 `RoomClient.cs`：设定房间客户端，使客户端可以通过房间服务器加入、离开房间。
+
 `LatencyMeter.cs`：同其他peer上的组件一同工作测量并记录延迟。
+
 `VoipPeerConnectionManager.cs`：管理语音连接信道的lifetime。
+
 `LogCollector.cs`：接收管理日志信息。
+
 `RoomSceneManager.cs`：管理房间场景，在加入离开房间时进行管理。
 
 <br/>
